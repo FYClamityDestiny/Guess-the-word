@@ -4,8 +4,8 @@ player_1_score = 0;
 player_2_score = 0;
 document.getElementById("P1").innerHTML = name1 + ":";
 document.getElementById("P2").innerHTML = name2 + ":";
-document.getElementById("scoreP1").innerHTML = player_1_score;
-document.getElementById("scoreP2").innerHTML = player_2_score;
+document.getElementById("scorep1").innerHTML = player_1_score;
+document.getElementById("scorep2").innerHTML = player_2_score;
 document.getElementById("Question").innerHTML = "Question Turn:" +  name1;
 document.getElementById("Answer").innerHTML = "Answer Turn" + name2;
 function sendWord(){
